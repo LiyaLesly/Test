@@ -1,0 +1,173 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="new2.aspx.cs" Inherits="Web1.new2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div>
+            <asp:Button ID="Button1" runat="server" Text="Button" />
+            <input id="Submit1" type="submit" value="submit"/>
+        </div>
+    </form>
+    <table align="center">
+      <tr>
+        <td><label>First Name:</label></td>
+        <td><input type="text" name="fna" id="t1" placeholder="Enter the name"/></td>
+      </tr>
+      
+      <tr>
+        <td><label>Password:</label></td>
+        <td><input type="password"  placeholder="Enter the password"/></td>
+      </tr>
+      
+      <tr>
+        <td><label>Address:</label></td>
+        <td><textarea></textarea></td>
+      </tr>
+    
+     <tr>
+        <td><label>E_mail:</label></td>
+        <td><input type="email"/></td>
+     </tr>
+     <tr>
+        <td></td>
+        <td><input type="submit" value="Register"/></td>
+     </tr>
+      <tr>
+        <td></td>
+        <td><input type="button" value="Register button"/></td>
+     </tr>
+    <tr>
+        <td><label>Photo:</label></td>
+        <td><input type="file"/></td>
+     </tr>
+     <tr>
+        <td><label>Age:</label></td>
+        <td><input type="number" min="18" max="60"></td>
+     </tr>
+     <tr>
+        <td><label>Phone:</label></td>
+        <td><input type="tel" pattern="\d{10}"/></td>
+     </tr>
+     <tr>
+        <td><label>Gender:</label></td>
+        <td>
+            <input type="radio" name="rb" value="Male"/>Male
+            <input type="radio" name="rb" value="Female"/>Female
+        </td>
+     </tr>
+     <tr>
+        <td><label>Qualification:</label></td>
+        <td>
+        <input type="checkbox" name="c1" value="SSLC"/>SSLC
+        <input type="checkbox" name="c2" value="B.TECH"/>B.TECH
+        <input type="checkbox" name="c3" value="OTHER"/>OTHER
+        </td>
+     </tr>
+     <tr>
+        <td>
+     <select name="dist" id="dis">
+        <option selected="selected" disabled="disabled">Select</option>
+        <option value="ekm">Ernakulam</option>
+        <option value="idk">Idukki</option>
+     </select>
+        </td>
+     </tr>
+     <tr>
+        <td><label>Date:</label></td>
+        <td><input type="date"/></td>
+     </tr>
+</table>
+    <ol type="a">
+        <li>Red</li>
+        <li>Black</li>
+        <li>Pink</li>
+    </ol>
+    <br>
+     <ol type="i">
+        <li>Red</li>
+        <li>Black</li>
+        <li>Pink</li>
+        <li>White</li>
+    </ol>
+    <br>
+    <ul>
+         <li>Mango</li>
+        <li>Orange</li>
+        <li>Pear</li>
+        
+    </ul>
+    <br>
+    <ul type="circle">
+        <li>Red</li>
+        <li>Black</li>
+        <li>Pink</li>
+        <li>White</li>
+    </ul>
+  
+    <dl>
+        <dt><b><i><u>HTML</u></i></b></dt>
+        <dd><b><u>Hyper Text Markup Language</u></b></dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet</dd>
+    </dl>
+    <font color="blue" face="timesnewroman" size="5">My name is Liya</font>
+    <br>
+    <a href="new1.aspx">Go to next page</a>
+    <br>
+    <p>My daughter is <a href="newboot2.aspx">Achanchala</a></p>
+    
+    <img src="shoes.jpg" alt="hello" height="100px" width="200px" title="hai">
+     <br>
+    <a href="pg2.html"><img src="watch2.jpg" alt="hello" height="100px" width="200px" title="click me"></a>
+    <br>
+    <video width="300" height="240" controls autoplay loop>
+        <source src="video record.mp4" type="video/mp4"/>
+    </video>
+    <audio controls>
+       <source src="audiorecord.mp3" type="audio/mp3"/>
+    </audio>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th colspan="2">Phone</th>
+        </tr>
+        <tr>
+            <td>Jessy</td>
+            <td>23</td>
+            <td>876767777</td>
+             <td>675775677</td>
+        </tr>
+        <tr>
+            <td>Karthik</td>
+            <td>19</td>
+            <td>7897888809</td>
+             <td>8767787688</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <td>Mohan</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>24</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>875557644</td>
+        </tr>
+         <tr>
+            <td>997970077</td>
+        </tr>
+        </table>
+    <br>
+</body>
+</html>

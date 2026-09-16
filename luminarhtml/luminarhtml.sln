@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.37206.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "luminarhtml", "luminarhtml.csproj", "{096B5D7B-1EBB-495C-AB0E-7E3BA82A1877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{096B5D7B-1EBB-495C-AB0E-7E3BA82A1877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096B5D7B-1EBB-495C-AB0E-7E3BA82A1877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096B5D7B-1EBB-495C-AB0E-7E3BA82A1877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096B5D7B-1EBB-495C-AB0E-7E3BA82A1877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {407379E8-AFA7-458E-B720-50960854B2BE}
+	EndGlobalSection
+EndGlobal
